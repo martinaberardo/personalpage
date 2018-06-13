@@ -1,8 +1,10 @@
-.rettangolo
-{width: 10px;
-height: 20px;
+.rettangolo{
+width:10px;
+height:20px;
+position: absolute;
+top:40px;
+left:10px;
 }
-.navigation_bar
-{
-
+.home{
+  font:10pt "futura";
 }
