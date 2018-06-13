@@ -1,13 +1,8 @@
-h1 {
-  colour: blue;
-  background-color: yellow;
-  border: 1px solid black;
+.rettangolo
+{width: 10px;
+height: 20px;
 }
+.navigation_bar
+{
 
-p {
-  color: red;
-}
-
-p, li {
-  text-decoration: underline;
 }
