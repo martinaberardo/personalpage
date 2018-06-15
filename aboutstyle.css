@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+
+body{
+  background-image: url(fondo mercatino.jpg);
+  background-position: center center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+
 
 .rettangolo{
 position: absolute;
 height: 25%;
 left:25px;
 }
+
 .navigation_bar{
   position: fixed;
   top: 15%;
@@ -12,10 +26,11 @@ left:25px;
   width:224px;
   height:550px;
   font-size:15pt;
-  font-family:"Julius Sans One",regular;
+  font-family:"Julius Sans One";
   background-color: #ffffff;
   opacity: 0.87;
 }
+
 .home{
   top: 20%;
 }
@@ -31,6 +46,24 @@ left:25px;
 .contacts{
   top: 80%
 }
+
+
+a{
+color: inherit;
+text-decoration: none;
+}
+.descrizione{
+  position: fixed;
+  top: 18.5%;
+  left:430px;
+  width:500px;
+  height:550px;
+  font-size:15pt;
+  font-family:"Handlee";
+  background-color: #ffffff;
+  opacity: 0.87;
+
+}
 .altezza{
   position: absolute;
   height:500px;
@@ -42,21 +75,9 @@ left:25px;
   top: 15%;
   width: 100%;
 }
-
-#foto1{
-  left:0%;
-}
-#foto3{
-  left:750px;
-}
-
-#foto2{
-  left:1150px;
-}
-
-a{
-color: inherit;
-text-decoration: none;
+#fotomamma{
+  left:70%;
+  position:fixed;
 }
 #logo{
   position: fixed;
