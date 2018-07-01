@@ -59,8 +59,25 @@ left:0%;
   left:750px;
 }
 #foto3{
-  left:1550px;
+  left:1150px;
 }
 #foto4{
-  left:2050px;
+  left:1900px;
+}
+
+#logo{
+  position: fixed;
+  transform: translate(0,-50%);
+  top: 25%;
+  left:8%;
+  width: 100%;
+  z-index: 20;
+
+}
+.logo{
+  left: 9%;
+  transform: translate(0,-50%);
+  top: 50%;
+  left:100px;
+  width:110px ;
 }
